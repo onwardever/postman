@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>postman-client</name>
+    <name>postman-base-zookeeper</name>
 
     <parent>
         <groupId>tech.easynlp</groupId>
@@ -13,13 +13,19 @@
     </parent>
 
     <groupId>tech.easynlp.postman</groupId>
-    <artifactId>postman-client</artifactId>
+    <artifactId>postman-base-zookeeper</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>tech.easynlp.postman</groupId>
-            <artifactId>postman-base-zookeeper</artifactId>
+            <artifactId>postman-base</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.6.1</version>
         </dependency>
     </dependencies>
 </project>

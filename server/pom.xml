@@ -15,4 +15,11 @@
     <groupId>tech.easynlp.postman</groupId>
     <artifactId>postman-server</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>tech.easynlp.postman</groupId>
+            <artifactId>postman-base-zookeeper</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
